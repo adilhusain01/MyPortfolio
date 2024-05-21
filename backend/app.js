@@ -54,7 +54,7 @@ const projects = [
   {
     id: 1,
     img: 'https://github.com/adilhusain01/Images/blob/main/MyProfile/project1.png?raw=true',
-    url: 'http://localhost:5173/',
+    url: 'https://adilhusain.netlify.app/',
     github: 'https://github.com/adilhusain01/MyPortfolio.git',
     title: 'Portfolio Website',
     text: "It's a minimalistic portfolio website I've made with React and Tailwind CSS to feature Information about me and my Projects",
