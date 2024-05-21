@@ -8,7 +8,9 @@ function Navbar() {
   useEffect(() => {
     const fetchLinks = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/links');
+        const response = await axios.get(
+          `${import.meta.env.VITE_BACKEND_URL}/links`
+        );
         setLinks(response.data);
       } catch (error) {
         console.error('Error fetching links:', error);

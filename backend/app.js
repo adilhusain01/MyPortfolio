@@ -2,12 +2,19 @@ const express = require('express');
 require('dotenv').config();
 const app = express();
 const cors = require('cors');
-const port = 3000 || Process.env.port;
+const port = 3000 || process.env.port;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
-
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*'); // Allow requests from any origin
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept'
+  );
+  next();
+});
 app.use((req, res, next) => {
   const timestamp = new Date().toISOString();
   const { method, url } = req;
