@@ -2,7 +2,7 @@ import { links } from '../assets/data';
 
 function Navbar() {
   return (
-    <nav className='bg-yellow-100'>
+    <nav className='bg-yellow-100' id='home'>
       <div className='align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
         <h2 className='text-3xl font-bold'>
           Adil <span className='text-yellow-500'>Husain</span>
