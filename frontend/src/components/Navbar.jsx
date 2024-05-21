@@ -1,6 +1,23 @@
-import { links } from '../assets/data';
+// import { links } from '../assets/data';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
 function Navbar() {
+  const [links, setLinks] = useState([]);
+
+  useEffect(() => {
+    const fetchLinks = async () => {
+      try {
+        const response = await axios.get('http://localhost:3000/api/links');
+        setLinks(response.data);
+      } catch (error) {
+        console.error('Error fetching links:', error);
+      }
+    };
+
+    fetchLinks();
+  }, []);
+
   return (
     <nav className='bg-yellow-100' id='home'>
       <div className='align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8'>
