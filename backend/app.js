@@ -62,7 +62,7 @@ const projects = [
   {
     id: 2,
     img: 'https://github.com/adilhusain01/Images/blob/main/MyProfile/project2.png?raw=true',
-    url: 'https://react-projects.netlify.app/',
+    url: 'https://trakker-track.netlify.app/',
     github: 'https://github.com/adilhusain01/tracker.gi',
     title: 'Trakker',
     text: 'Trakker is an all-in-one platform that helps manage your Nutrition, Tasks, and Exercise routine through integrated tracking and progress monitoring.',
