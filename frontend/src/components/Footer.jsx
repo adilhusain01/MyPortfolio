@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section className='bg-yellow-100 py-12 sm:py-8'>
       <div className='align-element grid grid-cols-1 sm:grid-cols-2'>
-        <div className='mx-auto capitalize flex gap-4 '>
+        <div className='mx-auto capitalize flex gap-x-3 sm:gap-x-7'>
           {links.map((link) => (
             <a
               className='text-lg tracking-wide hover:text-yellow-600 duration-300'

@@ -13,7 +13,7 @@ function Hero() {
               Backend Developer
             </p>
             <p className='mt-2 text-lg text-slate-700 capitalize tracking-wide'>
-              Bringing some ease to the problems
+              Efficient site, empowered experiences.
             </p>
             <div className='flex flex-row gap-x-4 mt-4'>
               <a href='https://github.com/adilhusain01'>
