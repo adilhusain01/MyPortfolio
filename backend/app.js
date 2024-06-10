@@ -32,21 +32,21 @@ const links = [
 const skills = [
   {
     id: 1,
-    title: 'HTML&CSS',
-    icon: 'FaHtml5',
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    title: 'NodeJs',
+    icon: 'FaNodeJs',
+    text: 'Highly skilled in NodeJs, adeptly crafting efficient and responsive server for optimal user experiences.',
   },
   {
     id: 2,
-    title: 'Javascript',
-    icon: 'FaJs',
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    title: 'MongoDB',
+    icon: 'SiMongodb',
+    text: 'Expertise in MongoDB, building Scalable and dynamic web applications with a focus on delivering seamless user experiences and functionality',
   },
   {
     id: 3,
     title: 'React',
     icon: 'FaReact',
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Advanced proficiency in React, developing efficient and interactive Front-End UI with a strong emphasis on component-based architecture.',
   },
 ];
 

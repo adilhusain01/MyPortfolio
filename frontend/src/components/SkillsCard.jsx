@@ -1,13 +1,14 @@
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+import { FaNodeJs, FaReact } from 'react-icons/fa';
+import { SiMongodb } from "react-icons/si";
 
 function SkillsCard({ title, icon, text }) {
   let iconComponent;
   switch (icon) {
-    case 'FaHtml5':
-      iconComponent = <FaHtml5 className='h-16 w-16 text-yellow-500' />;
+    case 'FaNodeJs':
+      iconComponent = <FaNodeJs className='h-16 w-16 text-yellow-500' />;
       break;
-    case 'FaJs':
-      iconComponent = <FaJs className='h-16 w-16 text-yellow-500' />;
+    case 'SiMongodb':
+      iconComponent = <SiMongodb className='h-16 w-16 text-yellow-500' />;
       break;
     case 'FaReact':
       iconComponent = <FaReact className='h-16 w-16 text-yellow-500' />;
