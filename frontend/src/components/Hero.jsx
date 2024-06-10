@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 function Hero() {
   return (
-    <>
+    <section>
       <div className='bg-yellow-100 py-24'>
         <div className='align-element grid md:grid-cols-2 items-center gap-8'>
           <article>
@@ -32,7 +32,7 @@ function Hero() {
           </article>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

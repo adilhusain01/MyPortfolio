@@ -70,8 +70,8 @@ const projects = [
   {
     id: 3,
     img: 'https://images.unsplash.com/photo-1477124508671-45ba8ede458f?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
+    url: '/#',
+    github: '/#',
     title: 'third project',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
